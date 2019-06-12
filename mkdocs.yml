@@ -1,4 +1,6 @@
 site_name: Help Pages
+site_url: https://ise-efs-help-pages-mkdocs.netlify.com/
+
 nav:
     - Home: index.md
     - ex: ex.md
@@ -10,3 +12,27 @@ nav:
     - Welcome: Welcome.md
 
 extra_css: [extra.css]
+
+repo_name: 'danielopdahl/ise-efs-help-pages-mkdocs'
+repo_url: 'https://github.com/danielopdahl/ise-efs-help-pages-mkdocs'
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
