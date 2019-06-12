@@ -1,0 +1,12 @@
+site_name: Help Pages
+nav:
+    - Home: index.md
+    - ex: ex.md
+    - Availability: Availability.md
+    - GroupFilter: GroupFilter.md
+    - MapsView: MapsView.md
+    - SettingsHome: SettingsHome.md
+    - Violations: Violations.md
+    - Welcome: Welcome.md
+
+extra_css: [extra.css]

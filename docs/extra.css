@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #8EC448;
+  background-image: none;
+  border: none;
+}
+.navbar-nav li a:hover {
+  background-color: black !important;
+}
+.navbar-nav li a:focus {
+  background-color: grey !important;
+}
+.navbar-nav li a:active {
+  background-color: black !important;
+}
+.navbar-nav li a:visited {
+  background-color: black !important;
+}
+.navbar-nav li a:focus-within {
+  background-color: black !important;
+}
+a {
+  color: #8EC448;
+}
+body::before {
+  background-color: white !important;
+  background-image: none !important;
+}
+.col-md-12 {
+  display: none;
+}
