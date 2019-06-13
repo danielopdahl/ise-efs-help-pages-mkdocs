@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: danielopdahl/mkdocs-netlify
+  repo: danielopdahl/ise-efs-help-pages-mkdocs
   branch: master
 
 media_folder: "img/uploads"
