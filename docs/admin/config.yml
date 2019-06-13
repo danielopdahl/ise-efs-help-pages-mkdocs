@@ -4,7 +4,7 @@ backend:
   branch: master
 
 media_folder: "img/uploads"
-#publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 collections: # A list of collections the CMS should be able to edit
   - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
