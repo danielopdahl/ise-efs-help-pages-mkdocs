@@ -1,5 +1,4 @@
 site_name: Help Pages
-site_url: https://ise-efs-help-pages-mkdocs.netlify.com/
 
 nav:
     - Home: index.md
@@ -13,5 +12,5 @@ nav:
 
 extra_css: [extra.css]
 
-repo_name: 'danielopdahl/ise-efs-help-pages-mkdocs'
-repo_url: 'https://github.com/danielopdahl/ise-efs-help-pages-mkdocs'
+repo_url: https://github.com/danielopdahl/ise-efs-help-pages-mkdocs
+edit_uri: edit/master/docs/
